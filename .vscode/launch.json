@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug HyLab-Core (ST-Link)",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/HyLab_Core.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "openocd",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            },
+            "showDevDebugOutput": "none",
+            "svdFile": "${workspaceFolder}/docs/STM32F103.svd"
+        }
+    ]
+}
