@@ -9,3 +9,4 @@ Release/
 *.d
 .vscode/.browse.VC.db*
 .vscode/ipch/
+tree.txt

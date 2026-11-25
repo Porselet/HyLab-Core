@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 120, PointerAlignment: Right, AllowShortFunctionsOnASingleLine: Empty, AllowShortIfStatementsOnASingleLine: Never }"
+}

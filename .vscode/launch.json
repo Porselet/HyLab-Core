@@ -4,7 +4,7 @@
         {
             "name": "Debug HyLab-Core (ST-Link)",
             "cwd": "${workspaceFolder}",
-            "executable": "${workspaceFolder}/build/HyLab_Core.elf",
+            "executable": "${workspaceFolder}/build/HyLab-Core.elf",
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
